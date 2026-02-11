@@ -1,0 +1,100 @@
+{
+  "model jaringan osi terdiri dari ... ?": {
+    "answers": ["7"]
+  },
+  "komponen jaringan yang bekerja pada lapisan 2 osi adalah...": {
+    "answers": ["switch"]
+  },
+  "dst-address 192.168.20.0/24 gateway 10.11.12.13 dst-address 192.168.20.0/24 gateway 10.11.12.14 apa yang bisa kita lakukan supaya gateway yang dilalui adalah 10.11.12.14": {
+    "answers": [
+      "mengubah distance pada gateway 10.11.12.13 menjadi lebih besar"
+    ]
+  },
+  "mac atau media access control di osi layer ada pada layer...": {
+    "answers": ["data link"]
+  },
+  "dynamic host configuration protocol merupakan service yang memungkinkan perangkat dapat mendistribusikan/assign ip address secara otomatis pada host dalam sebuah jaringan": {
+    "answers": ["true"]
+  },
+  "protokol apa yang digunakan oleh ping dan trace route ... ?": {
+    "answers": ["icmp"]
+  },
+  "layer data link menspesifikasikan aturan berikut :": {
+    "answers": [
+      "mengendalikan aliran data",
+      "mendeteksi dan terkadang memperbaiki kesalahan transmisi",
+      "identifikasi piranti jaringan",
+      "koordinasi bits kedalam kelompok-kelompok logical dari suatu informasi"
+    ]
+  },
+  "arp atau address resolution protocol, adalah protocol yang hanya bekerja di layer 3, untuk memetakan ip address ke mac address": {
+    "answers": ["false"]
+  },
+  "yang termasuk bagian dari osi layer-1 ...": {
+    "answers": ["media transmisi"]
+  },
+  "manakah dari ip berikut yang merupakan ip valid ?": {
+    "answers": [
+      "192.168.10.127/25",
+      "192.168.10.88/28",
+      "192.168.10.10/29"
+    ]
+  },
+  "manakah dari subnet mask berikut yang merupakan subnet mask yang benar?": {
+    "answers": [
+      "255.192.0.0",
+      "255.0.0.0",
+      "255.255.255.128"
+    ]
+  },
+  "sistem keamanan yang melindungi batas intranet terhadap internet adalah ... ?": {
+    "answers": ["firewall"]
+  },
+  "sub menu yang terdapat pada pada menu bridge": {
+    "answers": [
+      "interface",
+      "ports",
+      "hosts"
+    ]
+  },
+  "beberapa karakteristik dari protokol tcp , kecuali ...": {
+    "answers": ["connectionless"]
+  },
+  "manakah dari ip berikut yang bukan ip private ?": {
+    "answers": ["8.8.8.8"]
+  },
+  "dhcp client berfungsi untuk ...": {
+    "answers": ["mendapatkan ip address secara otomatis"]
+  },
+  "network layer berfungsi untuk memecah data ke dalam paket-paket data serta memberikan nomor urut ke paket-paket tersebut sehingga dapat disusun kembali pada sisi tujuan setelah diterima": {
+    "answers": ["false"]
+  },
+  "terdapat 2 protocol yaitu udp dan tcp pada transport layer ?": {
+    "answers": ["true"]
+  },
+  "lapisan osi yang berfungsi untuk melakukan proses konversi, kompresi serta enskripsi file adalah ...": {
+    "answers": ["presentasi"]
+  },
+  "kode routing dari dac pada tabel routing mikrotik": {
+    "answers": ["d a c"]
+  },
+  "alat yang digunakan untuk menghubungkan 2 jaringan yang berbeda": {
+    "answers": ["router"]
+  },
+  "pada menu firewall → mangle terdapat beberapa macam pilihan untuk chain antara lain...": {
+    "answers": [
+      "forward",
+      "prerouting",
+      "postrouting"
+    ]
+  },
+  "berikut ini merupakan pernyataan yang benar tentang osi layer-1... ?": {
+    "answers": ["transmisi bit melalui media fisik"]
+  },
+  "beberapa kode routing, kecuali ...": {
+    "answers": [
+      "d – domain",
+      "c - configuration"
+    ]
+  }
+}
