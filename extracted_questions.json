@@ -1,3 +1,168 @@
 {
-    
+    "WIreless Quiz": {
+        "pilihlah mode-mode yang berada pada frequency mode": {
+            "type": "checkbox",
+            "options": [
+                "automatic-txpower",
+                "manual-txpower",
+                "superchannel",
+                "middlechannel",
+                "regulatory-domain"
+            ]
+        },
+        "negara yang menambahkan channel ke 14 adalah ….": {
+            "type": "radio",
+            "options": [
+                "jepang",
+                "inggris",
+                "amerika",
+                "india",
+                "jerman"
+            ]
+        },
+        "apabila setting country pada ap adalah japan, dan station adalah usa, maka station tidak bisa connect ke ap.": {
+            "type": "radio",
+            "options": []
+        },
+        "apabila akses point dipancarkan pada chanel 6 dengan channel width 10 mhz maka fekuensi yang bekerja pada akses point adalah:": {
+            "type": "radio",
+            "options": [
+                "2432 – 2442",
+                "2437 – 2447",
+                "2427 – 2437",
+                "2437 – 2442",
+                "2432 – 2437"
+            ]
+        },
+        "parameter access list (acl) pada mikrotik diantaranya …": {
+            "type": "checkbox",
+            "options": [
+                "interface",
+                "ap tx limit",
+                "signal strength range",
+                "ap rx limit",
+                "client tx limit"
+            ]
+        },
+        "apabila akses point disettting pada band 2ghz-only-n maka client yang terkoneksi juga harus mendukung band 2ghz-only-n": {
+            "type": "radio",
+            "options": []
+        },
+        "negara yang bisa menerima frekuensi 2427 adalah …": {
+            "type": "checkbox",
+            "options": [
+                "jepang",
+                "inggris",
+                "spanyol",
+                "amerika",
+                "prancis"
+            ]
+        },
+        "berikut ini adalah pilihan yang dapat dipilih apabila mikrotik wireless di set dalam mode klien": {
+            "type": "checkbox",
+            "options": [
+                "station",
+                "station clone",
+                "station peseudobridge",
+                "ap bridge",
+                "station wds"
+            ]
+        },
+        "untuk membuat mikroti wireless menjadi akses point maka mode yang dipilih adalah….": {
+            "type": "radio",
+            "options": [
+                "bridge",
+                "station bridge",
+                "station wds",
+                "ap bridge",
+                "station"
+            ]
+        },
+        "berkut ini adalah pilihan channel width pada mikrotik wireless": {
+            "type": "checkbox",
+            "options": [
+                "20/40mhz ec",
+                "10mhz ce",
+                "5mhz",
+                "20mhz",
+                "20/40mhz"
+            ]
+        },
+        "berkut ini adalah pilihan frekuensi pada mikrotik wireless untuk country regulation indonesia": {
+            "type": "checkbox",
+            "options": [
+                "2437",
+                "2447",
+                "2467",
+                "2317",
+                "2337"
+            ]
+        },
+        "opsi \"default authenticate\" pada properties interface wireless untuk mengijinkan client pada tabel access-list melakukan interkoneksi": {
+            "type": "radio",
+            "options": []
+        },
+        "menu scan list dapat digunakan pada mode ap-bridge": {
+            "type": "radio",
+            "options": []
+        },
+        "fowarding pada parameter access list digunakan untuk menentukan kebijakan antar client wireless untuk melakukan interkoneksi": {
+            "type": "radio",
+            "options": []
+        },
+        "pengaturan enkripsi wpa2 pada mikrotik routerboard dilakukan melalui menu …": {
+            "type": "radio",
+            "options": [
+                "interfaces",
+                "wireless",
+                "tools",
+                "system",
+                "routing"
+            ]
+        },
+        "untuk memeriksa hasil pengaturan access list (acl) dapat dilihat pada …": {
+            "type": "checkbox",
+            "options": [
+                "tab registration",
+                "wireless tables",
+                "interfaces",
+                "access list",
+                "connect list"
+            ]
+        },
+        "apa tujuan pembatasan frekuensi ….": {
+            "type": "radio",
+            "options": [
+                "murah",
+                "tidak terjadi interkoneksi",
+                "mudah identifikasi",
+                "mudah terkoneksi",
+                "tidak terjadi interferensi"
+            ]
+        },
+        "konfigurasi switching pada mikrotik (master/slae) dapat dilakukan dengan mengakses menu interfaces sub menu master port": {
+            "type": "radio",
+            "options": []
+        },
+        "pilihlah cara untuk mengkoneksikan sebuah station dengan ap di indonesia dengan frekuensi 2482 mhz.": {
+            "type": "checkbox",
+            "options": [
+                "menyamakan frekuensi station dengan ap",
+                "pastikan mode frekuensi pada regulatory-domain",
+                "pastikan mode frekuensi superchannel",
+                "menyamakan country station dengan ap",
+                "pastikan mode frekuensi pada manual-txpower"
+            ]
+        },
+        "berikut ini adalah salah satu band yang dapat dipilih pada mikrotik wireless….": {
+            "type": "radio",
+            "options": [
+                "24ghz-b",
+                "2ghz-only-g",
+                "40ghz-only-g",
+                "10ghz",
+                "20ghz"
+            ]
+        }
+    }
 }

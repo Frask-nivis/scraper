@@ -1,100 +1,741 @@
 {
-  "model jaringan osi terdiri dari ... ?": {
-    "answers": ["7"]
-  },
-  "komponen jaringan yang bekerja pada lapisan 2 osi adalah...": {
-    "answers": ["switch"]
-  },
-  "dst-address 192.168.20.0/24 gateway 10.11.12.13 dst-address 192.168.20.0/24 gateway 10.11.12.14 apa yang bisa kita lakukan supaya gateway yang dilalui adalah 10.11.12.14": {
-    "answers": [
-      "mengubah distance pada gateway 10.11.12.13 menjadi lebih besar"
-    ]
-  },
-  "mac atau media access control di osi layer ada pada layer...": {
-    "answers": ["data link"]
-  },
-  "dynamic host configuration protocol merupakan service yang memungkinkan perangkat dapat mendistribusikan/assign ip address secara otomatis pada host dalam sebuah jaringan": {
-    "answers": ["true"]
-  },
-  "protokol apa yang digunakan oleh ping dan trace route ... ?": {
-    "answers": ["icmp"]
-  },
-  "layer data link menspesifikasikan aturan berikut :": {
-    "answers": [
-      "mengendalikan aliran data",
-      "mendeteksi dan terkadang memperbaiki kesalahan transmisi",
-      "identifikasi piranti jaringan",
-      "koordinasi bits kedalam kelompok-kelompok logical dari suatu informasi"
-    ]
-  },
-  "arp atau address resolution protocol, adalah protocol yang hanya bekerja di layer 3, untuk memetakan ip address ke mac address": {
-    "answers": ["false"]
-  },
-  "yang termasuk bagian dari osi layer-1 ...": {
-    "answers": ["media transmisi"]
-  },
-  "manakah dari ip berikut yang merupakan ip valid ?": {
-    "answers": [
-      "192.168.10.127/25",
-      "192.168.10.88/28",
-      "192.168.10.10/29"
-    ]
-  },
-  "manakah dari subnet mask berikut yang merupakan subnet mask yang benar?": {
-    "answers": [
-      "255.192.0.0",
-      "255.0.0.0",
-      "255.255.255.128"
-    ]
-  },
-  "sistem keamanan yang melindungi batas intranet terhadap internet adalah ... ?": {
-    "answers": ["firewall"]
-  },
-  "sub menu yang terdapat pada pada menu bridge": {
-    "answers": [
-      "interface",
-      "ports",
-      "hosts"
-    ]
-  },
-  "beberapa karakteristik dari protokol tcp , kecuali ...": {
-    "answers": ["connectionless"]
-  },
-  "manakah dari ip berikut yang bukan ip private ?": {
-    "answers": ["8.8.8.8"]
-  },
-  "dhcp client berfungsi untuk ...": {
-    "answers": ["mendapatkan ip address secara otomatis"]
-  },
-  "network layer berfungsi untuk memecah data ke dalam paket-paket data serta memberikan nomor urut ke paket-paket tersebut sehingga dapat disusun kembali pada sisi tujuan setelah diterima": {
-    "answers": ["false"]
-  },
-  "terdapat 2 protocol yaitu udp dan tcp pada transport layer ?": {
-    "answers": ["true"]
-  },
-  "lapisan osi yang berfungsi untuk melakukan proses konversi, kompresi serta enskripsi file adalah ...": {
-    "answers": ["presentasi"]
-  },
-  "kode routing dari dac pada tabel routing mikrotik": {
-    "answers": ["d a c"]
-  },
-  "alat yang digunakan untuk menghubungkan 2 jaringan yang berbeda": {
-    "answers": ["router"]
-  },
-  "pada menu firewall → mangle terdapat beberapa macam pilihan untuk chain antara lain...": {
-    "answers": [
-      "forward",
-      "prerouting",
-      "postrouting"
-    ]
-  },
-  "berikut ini merupakan pernyataan yang benar tentang osi layer-1... ?": {
-    "answers": ["transmisi bit melalui media fisik"]
-  },
-  "beberapa kode routing, kecuali ...": {
-    "answers": [
-      "d – domain",
-      "c - configuration"
-    ]
-  }
+    "model jaringan osi terdiri dari ... ?": {
+        "answers": [
+            "7"
+        ]
+    },
+    "komponen jaringan yang bekerja pada lapisan 2 osi adalah...": {
+        "answers": [
+            "switch"
+        ]
+    },
+    "dst-address 192.168.20.0/24 gateway 10.11.12.13 dst-address 192.168.20.0/24 gateway 10.11.12.14 apa yang bisa kita lakukan supaya gateway yang dilalui adalah 10.11.12.14": {
+        "answers": [
+            "mengubah distance pada gateway 10.11.12.13 menjadi lebih besar"
+        ]
+    },
+    "mac atau media access control di osi layer ada pada layer...": {
+        "answers": [
+            "data link"
+        ]
+    },
+    "dynamic host configuration protocol merupakan service yang memungkinkan perangkat dapat mendistribusikan/assign ip address secara otomatis pada host dalam sebuah jaringan": {
+        "answers": [
+            "true"
+        ]
+    },
+    "protokol apa yang digunakan oleh ping dan trace route ... ?": {
+        "answers": [
+            "icmp"
+        ]
+    },
+    "layer data link menspesifikasikan aturan berikut :": {
+        "answers": [
+            "mengendalikan aliran data",
+            "mendeteksi dan terkadang memperbaiki kesalahan transmisi",
+            "identifikasi piranti jaringan",
+            "koordinasi bits kedalam kelompok-kelompok logical dari suatu informasi"
+        ]
+    },
+    "arp atau address resolution protocol, adalah protocol yang hanya bekerja di layer 3, untuk memetakan ip address ke mac address": {
+        "answers": [
+            "false"
+        ]
+    },
+    "yang termasuk bagian dari osi layer-1 ...": {
+        "answers": [
+            "media transmisi"
+        ]
+    },
+    "manakah dari ip berikut yang merupakan ip valid ?": {
+        "answers": [
+            "192.168.10.127/25",
+            "192.168.10.88/28",
+            "192.168.10.10/29"
+        ]
+    },
+    "manakah dari subnet mask berikut yang merupakan subnet mask yang benar?": {
+        "answers": [
+            "255.192.0.0",
+            "255.0.0.0",
+            "255.255.255.128"
+        ]
+    },
+    "sistem keamanan yang melindungi batas intranet terhadap internet adalah ... ?": {
+        "answers": [
+            "firewall"
+        ]
+    },
+    "sub menu yang terdapat pada pada menu bridge": {
+        "answers": [
+            "interface",
+            "ports",
+            "hosts"
+        ]
+    },
+    "beberapa karakteristik dari protokol tcp , kecuali ...": {
+        "answers": [
+            "connectionless"
+        ]
+    },
+    "manakah dari ip berikut yang bukan ip private ?": {
+        "answers": [
+            "8.8.8.8"
+        ]
+    },
+    "dhcp client berfungsi untuk ...": {
+        "answers": [
+            "mendapatkan ip address secara otomatis"
+        ]
+    },
+    "network layer berfungsi untuk memecah data ke dalam paket-paket data serta memberikan nomor urut ke paket-paket tersebut sehingga dapat disusun kembali pada sisi tujuan setelah diterima": {
+        "answers": [
+            "false"
+        ]
+    },
+    "terdapat 2 protocol yaitu udp dan tcp pada transport layer ?": {
+        "answers": [
+            "true"
+        ]
+    },
+    "lapisan osi yang berfungsi untuk melakukan proses konversi, kompresi serta enskripsi file adalah ...": {
+        "answers": [
+            "presentasi"
+        ]
+    },
+    "kode routing dari dac pada tabel routing mikrotik": {
+        "answers": [
+            "dynamic active connected"
+        ]
+    },
+    "alat yang digunakan untuk menghubungkan 2 jaringan yang berbeda": {
+        "answers": [
+            "router"
+        ]
+    },
+    "pada menu firewall → mangle terdapat beberapa macam pilihan untuk chain antara lain...": {
+        "answers": [
+            "forward",
+            "prerouting",
+            "postrouting"
+        ]
+    },
+    "berikut ini merupakan pernyataan yang benar tentang osi layer-1... ?": {
+        "answers": [
+            "transmisi bit melalui media fisik"
+        ]
+    },
+    "beberapa kode routing, kecuali ...": {
+        "answers": [
+            "d – domain",
+            "c - configuration"
+        ]
+    },
+    "fungsi warna kabel biru pada utp adalah?": {
+        "answers": [
+            "media penghantar paket suara"
+        ]
+    },
+    "arj45 (augmented registered jack 45) dapat digunakan pada kabel category": {
+        "answers": [
+            "cat 5e"
+        ]
+    },
+    "telecommunications closet atau tc adalah ?": {
+        "answers": [
+            "ruangan kecil berisi perangkat networking"
+        ]
+    },
+    "category 8 dapat berkerja di frekuensi": {
+        "answers": [
+            "2000 mhz"
+        ]
+    },
+    "vertical cabling memiliki rekomendasi jenis kabel category apa?": {
+        "answers": [
+            "cat 6"
+        ]
+    },
+    "shielding pada kabel berfungsi untuk?": {
+        "answers": [
+            "melindungi kabel dari gangguan elektromagnetik"
+        ]
+    },
+    "vertical cabling juga dapat digunakan untuk menghubungkan?": {
+        "answers": [
+            "distribution box pada setiap lantai"
+        ]
+    },
+    "poe atau power over ethernet adalah sebuah kemampuan perangkat": {
+        "answers": [
+            "menyalurkan atau menerima arus listrik melalui kabel ethernet"
+        ]
+    },
+    "patch panels & lan equipment adalah?": {
+        "answers": [
+            "patch panel dan peralatan lain yang mendukung structure cabling"
+        ]
+    },
+    "rekomendasi untuk kabel utp maksimal 90 meter. bukan 100 meter karena 10 meter digunakan untuk?": {
+        "answers": [
+            "connector atau jika menggunakan patch cord"
+        ]
+    },
+    "apa itu structured cabling?": {
+        "answers": [
+            "desain dan instalasi dari sistem pengkabelan"
+        ]
+    },
+    "jenis kabel yang memberikan keamanan terbaik dari gangguan (interferensi) adalah?": {
+        "answers": [
+            "sf/ftp (shielded and foiled with foiled twisted pair)"
+        ]
+    },
+    "untuk koneksi up to 1gbps disarankan menggunakan kabel?": {
+        "answers": [
+            "cat 6"
+        ]
+    },
+    "dengan standarisasi ansi/tia-568c maka dapat menggunakan?": {
+        "answers": [
+            "2 jenis media kabel"
+        ]
+    },
+    "berapa pin kabel yang dipakai dari cat 5 untuk 10base-t dan 100base-tx ?": {
+        "answers": [
+            "2"
+        ]
+    },
+    "poe atau power over ethernet memiliki kemampuan untuk ?": {
+        "answers": [
+            "menyalurkan atau menerima arus listrik melalui kabel ethernet"
+        ]
+    },
+    "standart poe yang pertama digunakan adalah?": {
+        "answers": [
+            "802.3af"
+        ]
+    },
+    "pada alternatif a dapat mengirimkan data dan arus listrik pada kabel yang sama untuk": {
+        "answers": [
+            "10mbps dan 100mbps ethernet"
+        ]
+    },
+    "jenis conector yang biasanya digunakan untuk terminasi twisted pair": {
+        "answers": [
+            "rj-45"
+        ]
+    },
+    "perbedaan pasive poe dan active poe terdapat pada bagian?": {
+        "answers": [
+            "cara negosiasi"
+        ]
+    },
+    "standart 802.3at type 2 ditetapkan pada bulan ?": {
+        "answers": [
+            "september 2009"
+        ]
+    },
+    "daya pse 15.40w atau 44-57v": {
+        "answers": [
+            "802.3af"
+        ]
+    },
+    "transition point merupakan tempat?": {
+        "answers": [
+            "beberapa tipe kabel berkumpul"
+        ]
+    },
+    "vertical cabling biasa juga disebut dengan?": {
+        "answers": [
+            "backbone cabling"
+        ]
+    },
+    "daya 60 w atau 50-57v untuk pse": {
+        "answers": [
+            "802.3bt type 3"
+        ]
+    },
+    "keuntungan kabel s/utp adalah?": {
+        "answers": [
+            "mendukung transmisi data yang tinggi dengan jarak yang jauh"
+        ]
+    },
+    "horizontal cabling, pengkabelan yang menghubungkan setiap?": {
+        "answers": [
+            "workstation"
+        ]
+    },
+    "kabel utp dikategorikan menjadi beberapa kategori": {
+        "answers": [
+            "semakin cepat transmisi datanya"
+        ]
+    },
+    "power sourcing equipment merupakan perangkat yang ?": {
+        "answers": [
+            "memberikan sumber arus listrik pada ethernet"
+        ]
+    },
+    "arti dari u pada penamaan wire copper adalah?": {
+        "answers": [
+            "unshielded"
+        ]
+    },
+    "pada alternatif a dapat mengirimkan data dan arus listrik pada kabel yang sama untuk": {
+        "answers": [
+            "10mbps dan 100mbps ethernet"
+        ]
+    },
+    "poe atau power over ethernet adalah sebuah kemampuan perangkat untuk menyalurkan atau menerima arus listrik melalui kabel ethernet atau twisted pair baik utp maupun stp.": {
+        "answers": [
+            "the correct answer is 'true'."
+        ]
+    },
+    "jenis conector yang biasanya digunakan untuk terminasi twisted pair (baik utp maupun stp) adalah?": {
+        "answers": [
+            "rj-45"
+        ]
+    },
+    "daya pse 15.40w atau 44-57v dan untuk pd adalah 12.95w atau 37-57v. terdapat pada standart ?": {
+        "answers": [
+            "802.3af"
+        ]
+    },
+    "daya 60 w atau 50-57v untuk pse dan 51w atau 42.5-57v untuk pd terdapat pada standart ?": {
+        "answers": [
+            "802.3bt type 3"
+        ]
+    },
+    "kabel utp dikategorikan menjadi beberapa kategori, semakin tinggi kategorinya maka": {
+        "answers": [
+            "semakin cepat transmisi datanya"
+        ]
+    },
+    "fungsi warna kabel biru pada utp adalah": {
+        "answers": [
+            "media penghantar paket suara"
+        ]
+    },
+    "telecommunications closet atau tc adalah": {
+        "answers": [
+            "ruangan kecil berisi perangkat networking"
+        ]
+    },
+    "vertical cabling memiliki rekomendasi jenis kabel category apa": {
+        "answers": [
+            "cat 6"
+        ]
+    },
+    "shielding pada kabel berfungsi untuk": {
+        "answers": [
+            "melindungi kabel dari gangguan elektromagnetik"
+        ]
+    },
+    "vertical cabling juga dapat digunakan untuk menghubungkan": {
+        "answers": [
+            "distribution box pada setiap lantai"
+        ]
+    },
+    "patch panels & lan equipment adalah": {
+        "answers": [
+            "patch panel dan peralatan lain yang mendukung structure cabling"
+        ]
+    },
+    "rekomendasi untuk kabel utp maksimal 90 meter": {
+        "answers": [
+            "connector atau jika menggunakan patch cord"
+        ]
+    },
+    "apa itu structured cabling": {
+        "answers": [
+            "desain dan instalasi dari sistem pengkabelan"
+        ]
+    },
+    "jenis kabel yang memberikan keamanan terbaik dari gangguan": {
+        "answers": [
+            "sf/ftp"
+        ]
+    },
+    "untuk koneksi up to 1gbps disarankan menggunakan kabel": {
+        "answers": [
+            "cat 5e"
+        ]
+    },
+    "dengan standarisasi ansi/tia-568c maka dapat menggunakan": {
+        "answers": [
+            "horizontal vertical"
+        ]
+    },
+    "berapa pin kabel yang dipakai dari cat 5 untuk 10base-t dan 100base-tx": {
+        "answers": [
+            "4"
+        ]
+    },
+    "poe atau power over ethernet memiliki kemampuan untuk": {
+        "answers": [
+            "menyalurkan atau menerima arus listrik melalui kabel ethernet"
+        ]
+    },
+    "standart poe yang pertama digunakan adalah": {
+        "answers": [
+            "802.3af"
+        ]
+    },
+    "pada alternatif a dapat mengirimkan data dan arus listrik pada kabel yang sama": {
+        "answers": [
+            "10mbps dan 100mbps ethernet"
+        ]
+    },
+    "perbedaan pasive poe dan active poe terdapat pada bagian": {
+        "answers": [
+            "cara negosiasi"
+        ]
+    },
+    "standart 802.3at type 2 ditetapkan pada bulan": {
+        "answers": [
+            "september 2009"
+        ]
+    },
+    "daya pse 15.40w": {
+        "answers": [
+            "802.3af"
+        ]
+    },
+    "transition point merupakan tempat": {
+        "answers": [
+            "beberapa tipe kabel berkumpul"
+        ]
+    },
+    "vertical cabling biasa juga disebut dengan": {
+        "answers": [
+            "backbone cabling"
+        ]
+    },
+    "keuntungan kabel s/utp adalah": {
+        "answers": [
+            "mengurangi electrical noise"
+        ]
+    },
+    "horizontal cabling, pengkabelan yang menghubungkan setiap": {
+        "answers": [
+            "workstation"
+        ]
+    },
+    "power sourcing equipment merupakan perangkat yang": {
+        "answers": [
+            "memberikan sumber arus listrik pada ethernet"
+        ]
+    },
+    "arti dari u pada penamaan wire copper adalah": {
+        "answers": [
+            "unshielded"
+        ]
+    },
+    "konektor yang dikembangkan oleh ibm": {
+        "answers": [
+            "konektor escon"
+        ]
+    },
+    "pengurangan kekuatan dari sinyal cahaya": {
+        "answers": [
+            "attenuation"
+        ]
+    },
+    "penyebaran atau pelebaran signal": {
+        "answers": [
+            "chromatic dispersion"
+        ]
+    },
+    "cara perawatan splicer yang benar": {
+        "answers": [
+            "membersihkan objective lens"
+        ]
+    },
+    "berdasarkan sifatnya, penyambungan serat optik": {
+        "answers": [
+            "dua"
+        ]
+    },
+    "jenis connector apakah yang digunakan oleh isp": {
+        "answers": [
+            "subscriber connector"
+        ]
+    },
+    "yang dimaksud dengan instalasi kabel udara": {
+        "answers": [
+            "pemasangan kabel fiber optic dengan menambatkannya pada tiang telepon"
+        ]
+    },
+    "perangkat yang dapat menggunakan fiber optic": {
+        "answers": [
+            "networking router"
+        ]
+    },
+    "kepanjangan dari sfp-dd adalah": {
+        "answers": [
+            "small form-factor pluggable double density"
+        ]
+    },
+    "hasil dari test menggunakan otdr dengan hasil yang bagus": {
+        "answers": [
+            "tidak terdapat bending"
+        ]
+    },
+    "pengertian instalasi kabel dalam tanah": {
+        "answers": [
+            "kabel yang diletakkan atau ditanam dibawah permukaan tanah"
+        ]
+    },
+    "kegunaan dari alat sambung fiber optic": {
+        "answers": [
+            "untuk menyambungkan fiber optic akibat tarikan"
+        ]
+    },
+    "pengertian dari module fiber optic adalah": {
+        "answers": [
+            "perangkat antarmuka yang digunakan untuk menghubungkan perangkat jaringan dengan kabel fiber optic"
+        ]
+    },
+    "4gbit/s qsfp merupakan qsfp paling awal": {
+        "answers": [
+            "1 gbit/s pada setiap channelnya"
+        ]
+    },
+    "kepanjangan dari sfp adalah": {
+        "answers": [
+            "small form-factor pluggable"
+        ]
+    },
+    "alat yang digunakan untuk menentukan sinyal loss": {
+        "answers": [
+            "optical power meter"
+        ]
+    },
+    "kegunaan dari alat pendukung high precision fiber cleaver": {
+        "answers": [
+            "untuk memotong serat optic"
+        ]
+    },
+    "kepanjangan dari otdr adalah": {
+        "answers": [
+            "optical time-domain reflector"
+        ]
+    },
+    "bagian inti dari fiber optic": {
+        "answers": [
+            "core"
+        ]
+    },
+    "keuntungan meggunakan kabel fiber optic": {
+        "answers": [
+            "mudahnya transmisi data jarak jauh"
+        ]
+    },
+    "dibawah ini adalah port protokol yang dipakai di winbox": {
+        "answers": [
+            "8291"
+        ]
+    },
+    "tandai semua pernyataan yang benar tentang /ekspor (file .rsc)": {
+        "answers": [
+            "exports konfigurasi penuh router",
+            "ekspor hanya bagian dari konfigurasi"
+        ]
+    },
+    "prosedur mengganti identitas pada mikrotik routeros adalah": {
+        "answers": [
+            "system - identity"
+        ]
+    },
+    "prosedur untuk mengaktifkan service pada mikrotik routeros melalui terminal console mikrotik": {
+        "answers": [
+            "ip service enable number=0"
+        ]
+    },
+    "sebutkan cara masuk ke mikrotik": {
+        "answers": [
+            "telnet",
+            "ftp",
+            "via winbox"
+        ]
+    },
+    "cara untuk masuk/login menggunakan gui pada mikrotik adalah dengan melalui": {
+        "answers": [
+            "wibox",
+            "webfig"
+        ]
+    },
+    "dibawah ini yang merupakan level mikrotik licensi yang benar dan tepat adalah": {
+        "answers": [
+            "level 6: mencakup semua level dan tidak memiliki limitasi apapun.",
+            "level 5: mencakup level 1, 3 dan 4 ditambah dengan kemampuan mengelola jumlah pengguna hotspot yang lebih banyak.",
+            "level 4: sudah mencakup level 1 dan 3 ditambah dengan kemampuan untuk mengelola perangkat wireless tipe akses poin.",
+            "level 3: sudah mencakup level 1 ditambah dengan kemampuan untuk menajemen segala perangkat keras yang berbasiskan kartu jaringan atau ethernet dan pengelolan perangkat wireless tipe klien.",
+            "level 1 (gratis): tidak membutuhkan lisensi untuk menggunakannya dan penggunaan fitur hanya dibatasi selama 24 jam setelah instalasi dilakukan."
+        ]
+    },
+    "ketika melakukan backup pada router anda menggunakan perintah eksport file": {
+        "answers": [
+            "ekspor dapat diedit dengan editor teks standar setelah penciptaan",
+            "file hasil export tidak berupa file.src"
+        ]
+    },
+    "pilihlah tipe user yang benar pada mikrotik routeros": {
+        "answers": [
+            "full",
+            "read",
+            "write",
+            "custom"
+        ]
+    },
+    "router identity juga bisa disebut": {
+        "answers": [
+            "sebagai identitas router / nama dari router"
+        ]
+    },
+    "static routing digunakan apabila kita memiliki jaringan yang sangat besar": {
+        "answers": [
+            "false"
+        ]
+    },
+    "ip address merupakan salah satu pengalamatan jaringan yang bekerja di layer 3": {
+        "answers": [
+            "true"
+        ]
+    },
+    "static lease (menu general)": {
+        "answers": [
+            "mac address",
+            "address",
+            "server"
+        ]
+    },
+    "dhcp kependekan dari": {
+        "answers": [
+            "dynamic host configuration protocol"
+        ]
+    },
+    "tahapan dhcp": {
+        "answers": [
+            "ip lease offer",
+            "ip lease request",
+            "ip lease acknowledge"
+        ]
+    },
+    "pilihlah mode-mode yang berada pada frequency mode": {
+        "answers": [
+            "superchannel",
+            "regulatory-domain"
+        ]
+    },
+    "negara yang menambahkan channel ke 14 adalah ….": {
+        "answers": [
+            "jepang"
+        ]
+    },
+    "apabila setting country pada ap adalah japan, dan station adalah usa, maka station tidak bisa connect ke ap.": {
+        "answers": [
+            "Benar"
+        ]
+    },
+    "apabila akses point dipancarkan pada chanel 6 dengan channel width 10 mhz maka fekuensi yang bekerja pada akses point adalah:": {
+        "answers": [
+            "2432 – 2442"
+        ]
+    },
+    "parameter access list (acl) pada mikrotik diantaranya …": {
+        "answers": [
+            "signal strength range",
+            "ap tx limit",
+            "ap rx limit",
+            "client tx limit"
+        ]
+    },
+    "apabila akses point disettting pada band 2ghz-only-n maka client yang terkoneksi juga harus mendukung band 2ghz-only-n": {
+        "answers": [
+            "Benar"
+        ]
+    },
+    "negara yang bisa menerima frekuensi 2427 adalah …": {
+        "answers": [
+            "jepang",
+            "amerika"
+        ]
+    },
+    "berikut ini adalah pilihan yang dapat dipilih apabila mikrotik wireless di set dalam mode klien": {
+        "answers": [
+            "station",
+            "station clone",
+            "station peseudobridge",
+            "station wds"
+        ]
+    },
+    "untuk membuat mikroti wireless menjadi akses point maka mode yang dipilih adalah….": {
+        "answers": [
+            "ap bridge"
+        ]
+    },
+    "berkut ini adalah pilihan channel width pada mikrotik wireless": {
+        "answers": [
+            "5mhz",
+            "10mhz ce",
+            "20mhz",
+            "20/40mhz",
+            "20/40mhz ec"
+        ]
+    },
+    "berkut ini adalah pilihan frekuensi pada mikrotik wireless untuk country regulation indonesia": {
+        "answers": [
+            "2437",
+            "2447",
+            "2467"
+        ]
+    },
+    "opsi \"default authenticate\" pada properties interface wireless untuk mengijinkan client pada tabel access-list melakukan interkoneksi": {
+        "answers": [
+            "Benar"
+        ]
+    },
+    "menu scan list dapat digunakan pada mode ap-bridge": {
+        "answers": [
+            "Salah"
+        ]
+    },
+    "fowarding pada parameter access list digunakan untuk menentukan kebijakan antar client wireless untuk melakukan interkoneksi": {
+        "answers": [
+            "Benar"
+        ]
+    },
+    "pengaturan enkripsi wpa2 pada mikrotik routerboard dilakukan melalui menu …": {
+        "answers": [
+            "wireless"
+        ]
+    },
+    "untuk memeriksa hasil pengaturan access list (acl) dapat dilihat pada …": {
+        "answers": [
+            "tab registration",
+            "wireless tables"
+        ]
+    },
+    "apa tujuan pembatasan frekuensi ….": {
+        "answers": [
+            "tidak terjadi interferensi"
+        ]
+    },
+    "konfigurasi switching pada mikrotik (master/slae) dapat dilakukan dengan mengakses menu interfaces sub menu master port": {
+        "answers": [
+            "Benar"
+        ]
+    },
+    "pilihlah cara untuk mengkoneksikan sebuah station dengan ap di indonesia dengan frekuensi 2482 mhz.": {
+        "answers": [
+            "pastikan mode frekuensi superchannel",
+            "menyamakan country station dengan ap"
+        ]
+    },
+    "berikut ini adalah salah satu band yang dapat dipilih pada mikrotik wireless….": {
+        "answers": [
+            "2ghz-only-g"
+        ]
+    }
 }
